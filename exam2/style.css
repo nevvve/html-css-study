@@ -1,0 +1,111 @@
+/* 강의 연습하기 */
+.red {
+    color: red;
+    background-color: yellow;
+}
+.border-blue {
+    border: 5px solid blue;
+}
+.img-size {
+    width: 200px;
+    height: 200px;
+}
+/* 내부공간 여백은 padding 외부 여백은 margin */
+.margin-space {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.padding-space {
+    padding-top: 40px;
+}
+/*
+ex1) p 태그에 new-style 이란 클래스 선택
+
+p.new-style {
+    color: red;
+}
+
+복합선택자 자식 부모 관계로 클래스를 묶는 > <
+
+ex2) div 태그 아래에 new-style을 선택
+
+div>.new-style{
+    color: red;
+
+굳이 클래스일 필요가 없고 id,태그 또한 동일하게 적용가능
+}
+
+*/
+
+/* 과제 1번 */
+.box {
+    border: 50px solid red;
+    margin-bottom: 20px;
+    padding: 50px;
+    width: 200px;
+}
+
+.green {
+    border: 50px solid green;
+    /* visibility: hidden; */
+    display: none;
+}
+/* 
+   display: none = 아예 렌더링 하지 않음
+   visibility: hidden = 렌더링 후 보여지지 않음
+   
+   display 를 사용하면 사라진 박스자리를 매우게됨
+   visiblity 를 사용하면 2번자리는 그대로인 채 3번째 박스가 생성
+*/
+.blue {
+    border: 50px solid blue;
+}
+
+.crimson {
+    border: 50px solid #e74c3c;
+}
+
+/* 과제 2번 */
+
+/* 
+    노트스타일 배경
+    샘플 참조
+    https://projects.verou.me/css3patterns/#lined-paper
+*/
+
+.note-background {
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    padding-left: 10%;
+}
+/*h1 tag*/
+h1 {
+    color:  #9b59b6 
+}
+
+h1::before {
+    content: "Topic: ";
+}
+
+h1:first-child {
+    text-align: center;
+}
+
+/*p tag*/
+p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+p.sub-header {
+    color: #2980b9;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #2980b9
+}
