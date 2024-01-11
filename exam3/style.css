@@ -1,17 +1,17 @@
 body {
-    display: contents;
     background-color: #ffffff;
     color: #000000;
 }
 
-@media (prefer-color-cheme: dark) {
+@media (prefers-color-scheme:dark) {
     body {
         background: #535353;
-        color: #ffffff;
+        color: #e9e6e6;
     }
+
 }
 .navbar {
-    float: right;
+    display: flex;
     margin: 20px;
 }
 
