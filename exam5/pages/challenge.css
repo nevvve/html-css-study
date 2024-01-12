@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 {
+    display: flex;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+}
