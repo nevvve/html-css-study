@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+
+.nav-bar {
+    height: 80px;
+    background-color: black;
+}
+
+main {
+    height: 969px;
+    background-color: #2941AB;
+}
+
+.footer {
+    height: 530px;
+    background-color: black;
+}
